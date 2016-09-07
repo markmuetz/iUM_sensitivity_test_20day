@@ -31,7 +31,7 @@ for expt in expts:
         comp['dirs']['work_' + expt] = '/nerc/n02/n02/mmuetz/um10.5_runs/20day/u-af095_64x64km2_1km_{}/work'.format(expt)
         comp['dirs']['results_' + expt] = '/nerc/n02/n02/mmuetz/omni_output/iUM_sensitivity_test_20day/results_64x64_{}'.format(expt)
     elif expt in expts_256x256:
-        comp['dirs']['work_' + expt] = '/nerc/n02/n02/mmuetz/um10.5_runs/20day/u-af095_256x256/work'.format(expt)
+        comp['dirs']['work_' + expt] = '/nerc/n02/n02/mmuetz/um10.5_runs/20day/u-af095_256x256km2/work'.format(expt)
         comp['dirs']['results_' + expt] = '/nerc/n02/n02/mmuetz/omni_output/iUM_sensitivity_test_20day/results_256x256_{}'.format(expt)
 
 comp = computers['zerogravitas']
