@@ -9,7 +9,7 @@ computers = {
     'zerogravitas': {
         'remote': 'rdf-comp',
         'remote_address': 'mmuetz@login.rdf.ac.uk',
-        'remote_path': '/nerc/n02/n02/mmuetz/omnis/u-af095_64x64km2',
+        'remote_path': '/nerc/n02/n02/mmuetz/omnis/iUM_sensitivity_test_20day',
         'dirs': {
             'output': '/home/markmuetz/omni_output/iUM_sensitivity_test_20day/output'
         }
