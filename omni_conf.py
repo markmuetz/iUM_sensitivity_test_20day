@@ -96,7 +96,7 @@ for expt in expts:
     nodes['surf_ts_plots_' + expt] = {
         'type': 'from_nodes',
         'from_nodes': ['precip_conv_ts_' + expt, 'shf_ts_' + expt, 'lhf_ts_' + expt],
-        'process': 'plot_multi_timeseries',
+        'process': 'plot_sensitivity_surf_timeseries',
     }
 
 variables = {
@@ -113,6 +113,6 @@ variables = {
         'item': 234,
     },
 }
-    
+
 process_options = {
 }

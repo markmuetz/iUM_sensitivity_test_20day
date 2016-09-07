@@ -5223,3 +5223,838 @@
 2016-09-07 15:05:25,839:omni        :DEBUG   : scp mmuetz@login.rdf.ac.uk:/nerc/n02/n02/mmuetz/omni_output/iUM_sensitivity_test_20day/results_256x256_large_dom/precip_conv_ts_large_dom.nc /home/markmuetz/omni_output/iUM_sensitivity_test_20day/results_256x256_large_dom/precip_conv_ts_large_dom.nc
 2016-09-07 15:05:36,272:omni        :DEBUG   : 
 2016-09-07 15:05:36,308:omni        :INFO    : Synced batch <Batch batch2 (id=3, status=None)>
+2016-09-07 15:20:13,042:omni        :DEBUG   : Created root logger: omni.log
+2016-09-07 15:20:13,042:omni        :DEBUG   : omni gen-node-graph -f --regen
+2016-09-07 15:20:13,042:omni        :DEBUG   : checking config
+2016-09-07 15:20:13,043:omni        :DEBUG   : config OK
+2016-09-07 15:20:13,043:omni        :WARNING : Disabling Python warnings
+2016-09-07 15:20:13,043:omni        :DEBUG   : running cmd: <module 'omni_cmds.gen_node_graph' from '/home/markmuetz/opt/omnium/src/python/omnium/omni_cmds/gen_node_graph.pyc'>
+2016-09-07 15:20:13,043:omni        :DEBUG   : catching all exceptions
+2016-09-07 15:20:13,263:omni        :DEBUG   : Using filename glob: /home/markmuetz/omni_output/iUM_sensitivity_test_20day/work_64x6415s/2000??????????/atmos/atmos.???.pp1
+2016-09-07 15:20:13,275:omni        :DEBUG   : creating node precip_ts_15s: precip_ts_15s.nc
+2016-09-07 15:20:13,279:omni        :DEBUG   : creating node shf_ts_15s: shf_ts_15s.nc
+2016-09-07 15:20:13,283:omni        :DEBUG   : creating node lhf_ts_15s: lhf_ts_15s.nc
+2016-09-07 15:20:13,283:omni        :DEBUG   : creating node precip_conv_ts_15s: precip_conv_ts_15s.nc
+2016-09-07 15:20:13,287:omni        :DEBUG   : creating node surf_ts_plots_15s: surf_ts_plots_15s.png
+2016-09-07 15:20:13,291:omni        :DEBUG   : Using filename glob: /home/markmuetz/omni_output/iUM_sensitivity_test_20day/work_64x6430s/2000??????????/atmos/atmos.???.pp1
+2016-09-07 15:20:13,299:omni        :DEBUG   : creating node precip_ts_30s: precip_ts_30s.nc
+2016-09-07 15:20:13,302:omni        :DEBUG   : creating node shf_ts_30s: shf_ts_30s.nc
+2016-09-07 15:20:13,305:omni        :DEBUG   : creating node lhf_ts_30s: lhf_ts_30s.nc
+2016-09-07 15:20:13,305:omni        :DEBUG   : creating node precip_conv_ts_30s: precip_conv_ts_30s.nc
+2016-09-07 15:20:13,309:omni        :DEBUG   : creating node surf_ts_plots_30s: surf_ts_plots_30s.png
+2016-09-07 15:20:13,312:omni        :DEBUG   : Using filename glob: /home/markmuetz/omni_output/iUM_sensitivity_test_20day/work_64x6460s/2000??????????/atmos/atmos.???.pp1
+2016-09-07 15:20:13,319:omni        :DEBUG   : creating node precip_ts_60s: precip_ts_60s.nc
+2016-09-07 15:20:13,322:omni        :DEBUG   : creating node shf_ts_60s: shf_ts_60s.nc
+2016-09-07 15:20:13,325:omni        :DEBUG   : creating node lhf_ts_60s: lhf_ts_60s.nc
+2016-09-07 15:20:13,326:omni        :DEBUG   : creating node precip_conv_ts_60s: precip_conv_ts_60s.nc
+2016-09-07 15:20:13,329:omni        :DEBUG   : creating node surf_ts_plots_60s: surf_ts_plots_60s.png
+2016-09-07 15:20:13,332:omni        :DEBUG   : Using filename glob: /home/markmuetz/omni_output/iUM_sensitivity_test_20day/work_64x64no_graupel/2000??????????/atmos/atmos.???.pp1
+2016-09-07 15:20:13,339:omni        :DEBUG   : creating node precip_ts_no_graupel: precip_ts_no_graupel.nc
+2016-09-07 15:20:13,344:omni        :DEBUG   : creating node shf_ts_no_graupel: shf_ts_no_graupel.nc
+2016-09-07 15:20:13,347:omni        :DEBUG   : creating node lhf_ts_no_graupel: lhf_ts_no_graupel.nc
+2016-09-07 15:20:13,348:omni        :DEBUG   : creating node precip_conv_ts_no_graupel: precip_conv_ts_no_graupel.nc
+2016-09-07 15:20:13,351:omni        :DEBUG   : creating node surf_ts_plots_no_graupel: surf_ts_plots_no_graupel.png
+2016-09-07 15:20:13,355:omni        :DEBUG   : Using filename glob: /home/markmuetz/omni_output/iUM_sensitivity_test_20day/work_256x256_large_dom/2000??????????/atmos/atmos.???.pp1
+2016-09-07 15:20:13,361:omni        :DEBUG   : creating node precip_ts_large_dom: precip_ts_large_dom.nc
+2016-09-07 15:20:13,364:omni        :DEBUG   : creating node shf_ts_large_dom: shf_ts_large_dom.nc
+2016-09-07 15:20:13,366:omni        :DEBUG   : creating node lhf_ts_large_dom: lhf_ts_large_dom.nc
+2016-09-07 15:20:13,366:omni        :DEBUG   : creating node precip_conv_ts_large_dom: precip_conv_ts_large_dom.nc
+2016-09-07 15:20:13,369:omni        :DEBUG   : creating node surf_ts_plots_large_dom: surf_ts_plots_large_dom.png
+2016-09-07 15:20:13,426:omni        :DEBUG   : <Node precip_conv_ts_15s (id=4, status=done)>
+2016-09-07 15:20:13,426:omni        :DEBUG   : precip_ts_15s
+2016-09-07 15:20:13,431:omni        :DEBUG   : <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:20:13,431:omni        :DEBUG   : precip_conv_ts_15s
+2016-09-07 15:20:13,434:omni        :DEBUG   : shf_ts_15s
+2016-09-07 15:20:13,436:omni        :DEBUG   : lhf_ts_15s
+2016-09-07 15:20:13,447:omni        :DEBUG   : <Node precip_conv_ts_30s (id=9, status=done)>
+2016-09-07 15:20:13,447:omni        :DEBUG   : precip_ts_30s
+2016-09-07 15:20:13,453:omni        :DEBUG   : <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:20:13,453:omni        :DEBUG   : precip_conv_ts_30s
+2016-09-07 15:20:13,456:omni        :DEBUG   : shf_ts_30s
+2016-09-07 15:20:13,459:omni        :DEBUG   : lhf_ts_30s
+2016-09-07 15:20:13,471:omni        :DEBUG   : <Node precip_conv_ts_60s (id=14, status=done)>
+2016-09-07 15:20:13,471:omni        :DEBUG   : precip_ts_60s
+2016-09-07 15:20:13,476:omni        :DEBUG   : <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:20:13,477:omni        :DEBUG   : precip_conv_ts_60s
+2016-09-07 15:20:13,479:omni        :DEBUG   : shf_ts_60s
+2016-09-07 15:20:13,482:omni        :DEBUG   : lhf_ts_60s
+2016-09-07 15:20:13,494:omni        :DEBUG   : <Node precip_conv_ts_no_graupel (id=19, status=done)>
+2016-09-07 15:20:13,495:omni        :DEBUG   : precip_ts_no_graupel
+2016-09-07 15:20:13,556:omni        :DEBUG   : <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:20:13,556:omni        :DEBUG   : precip_conv_ts_no_graupel
+2016-09-07 15:20:13,559:omni        :DEBUG   : shf_ts_no_graupel
+2016-09-07 15:20:13,560:omni        :DEBUG   : lhf_ts_no_graupel
+2016-09-07 15:20:13,573:omni        :DEBUG   : <Node precip_conv_ts_large_dom (id=24, status=done)>
+2016-09-07 15:20:13,573:omni        :DEBUG   : precip_ts_large_dom
+2016-09-07 15:20:13,577:omni        :DEBUG   : <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:20:13,577:omni        :DEBUG   : precip_conv_ts_large_dom
+2016-09-07 15:20:13,579:omni        :DEBUG   : shf_ts_large_dom
+2016-09-07 15:20:13,581:omni        :DEBUG   : lhf_ts_large_dom
+2016-09-07 15:20:13,610:omni        :DEBUG   : <Batch batch0 (id=1, status=None)>
+2016-09-07 15:20:13,611:omni        :DEBUG   :   <Group pp1_15s (id=1, status=None)>
+2016-09-07 15:20:13,612:omni        :DEBUG   :   <Group pp1_30s (id=5, status=None)>
+2016-09-07 15:20:13,614:omni        :DEBUG   :   <Group pp1_60s (id=9, status=None)>
+2016-09-07 15:20:13,615:omni        :DEBUG   :   <Group pp1_no_graupel (id=13, status=None)>
+2016-09-07 15:20:13,616:omni        :DEBUG   :   <Group pp1_large_dom (id=17, status=None)>
+2016-09-07 15:20:13,616:omni        :DEBUG   : <Batch batch1 (id=2, status=None)>
+2016-09-07 15:20:13,617:omni        :DEBUG   :   <Group nc1_15s (id=2, status=None)>
+2016-09-07 15:20:13,618:omni        :DEBUG   :   <Group nc1_30s (id=6, status=None)>
+2016-09-07 15:20:13,620:omni        :DEBUG   :   <Group nc1_60s (id=10, status=None)>
+2016-09-07 15:20:13,620:omni        :DEBUG   :   <Group nc1_no_graupel (id=14, status=None)>
+2016-09-07 15:20:13,621:omni        :DEBUG   :   <Group nc1_large_dom (id=18, status=None)>
+2016-09-07 15:20:13,622:omni        :DEBUG   : <Batch batch2 (id=3, status=None)>
+2016-09-07 15:20:13,623:omni        :DEBUG   :   <Group surf_timeseries_15s (id=3, status=None)>
+2016-09-07 15:20:13,624:omni        :DEBUG   :     <Node precip_ts_15s (id=1, status=done)>
+2016-09-07 15:20:13,625:omni        :DEBUG   :     <Node shf_ts_15s (id=2, status=done)>
+2016-09-07 15:20:13,625:omni        :DEBUG   :     <Node lhf_ts_15s (id=3, status=done)>
+2016-09-07 15:20:13,625:omni        :DEBUG   :     <Node precip_conv_ts_15s (id=4, status=done)>
+2016-09-07 15:20:13,625:omni        :DEBUG   :   <Group surf_timeseries_30s (id=7, status=None)>
+2016-09-07 15:20:13,626:omni        :DEBUG   :     <Node precip_ts_30s (id=6, status=done)>
+2016-09-07 15:20:13,626:omni        :DEBUG   :     <Node shf_ts_30s (id=7, status=done)>
+2016-09-07 15:20:13,626:omni        :DEBUG   :     <Node lhf_ts_30s (id=8, status=done)>
+2016-09-07 15:20:13,626:omni        :DEBUG   :     <Node precip_conv_ts_30s (id=9, status=done)>
+2016-09-07 15:20:13,626:omni        :DEBUG   :   <Group surf_timeseries_60s (id=11, status=None)>
+2016-09-07 15:20:13,627:omni        :DEBUG   :     <Node precip_ts_60s (id=11, status=done)>
+2016-09-07 15:20:13,627:omni        :DEBUG   :     <Node shf_ts_60s (id=12, status=done)>
+2016-09-07 15:20:13,627:omni        :DEBUG   :     <Node lhf_ts_60s (id=13, status=done)>
+2016-09-07 15:20:13,627:omni        :DEBUG   :     <Node precip_conv_ts_60s (id=14, status=done)>
+2016-09-07 15:20:13,627:omni        :DEBUG   :   <Group surf_timeseries_no_graupel (id=15, status=None)>
+2016-09-07 15:20:13,628:omni        :DEBUG   :     <Node precip_ts_no_graupel (id=16, status=done)>
+2016-09-07 15:20:13,628:omni        :DEBUG   :     <Node shf_ts_no_graupel (id=17, status=done)>
+2016-09-07 15:20:13,629:omni        :DEBUG   :     <Node lhf_ts_no_graupel (id=18, status=done)>
+2016-09-07 15:20:13,629:omni        :DEBUG   :     <Node precip_conv_ts_no_graupel (id=19, status=done)>
+2016-09-07 15:20:13,629:omni        :DEBUG   :   <Group surf_timeseries_large_dom (id=19, status=None)>
+2016-09-07 15:20:13,630:omni        :DEBUG   :     <Node precip_ts_large_dom (id=21, status=done)>
+2016-09-07 15:20:13,630:omni        :DEBUG   :     <Node shf_ts_large_dom (id=22, status=done)>
+2016-09-07 15:20:13,630:omni        :DEBUG   :     <Node lhf_ts_large_dom (id=23, status=done)>
+2016-09-07 15:20:13,630:omni        :DEBUG   :     <Node precip_conv_ts_large_dom (id=24, status=done)>
+2016-09-07 15:20:13,630:omni        :DEBUG   : <Batch batch3 (id=4, status=None)>
+2016-09-07 15:20:13,631:omni        :DEBUG   :   <Group surf_ts_plots_15s (id=4, status=None)>
+2016-09-07 15:20:13,632:omni        :DEBUG   :     <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:20:13,632:omni        :DEBUG   :   <Group surf_ts_plots_30s (id=8, status=None)>
+2016-09-07 15:20:13,633:omni        :DEBUG   :     <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:20:13,633:omni        :DEBUG   :   <Group surf_ts_plots_60s (id=12, status=None)>
+2016-09-07 15:20:13,634:omni        :DEBUG   :     <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:20:13,634:omni        :DEBUG   :   <Group surf_ts_plots_no_graupel (id=16, status=None)>
+2016-09-07 15:20:13,635:omni        :DEBUG   :     <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:20:13,635:omni        :DEBUG   :   <Group surf_ts_plots_large_dom (id=20, status=None)>
+2016-09-07 15:20:13,636:omni        :DEBUG   :     <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:20:13,636:omni        :DEBUG   : 
+2016-09-07 15:20:33,531:omni        :DEBUG   : Created root logger: omni.log
+2016-09-07 15:20:33,532:omni        :DEBUG   : omni process -fb batch3
+2016-09-07 15:20:33,532:omni        :DEBUG   : checking config
+2016-09-07 15:20:33,532:omni        :DEBUG   : config OK
+2016-09-07 15:20:33,532:omni        :WARNING : Disabling Python warnings
+2016-09-07 15:20:33,532:omni        :DEBUG   : running cmd: <module 'omni_cmds.process' from '/home/markmuetz/opt/omnium/src/python/omnium/omni_cmds/process.pyc'>
+2016-09-07 15:20:33,532:omni        :DEBUG   : catching all exceptions
+2016-09-07 15:20:33,556:omni        :INFO    : Processing batch <Batch batch3 (id=4, status=None)>
+2016-09-07 15:20:33,558:omni        :INFO    :   Processing group <Group surf_ts_plots_15s (id=4, status=None)>
+2016-09-07 15:20:33,560:omni        :INFO    :     Processing node <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:20:33,562:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:20:33,562:omni        :DEBUG   : loading <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:20:33,641:omni        :DEBUG   : running <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:20:33,902:omni        :DEBUG   : saving <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:20:34,251:omni        :DEBUG   : finished <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:20:34,256:omni        :INFO    :     Processed <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:20:34,293:omni        :INFO    :   Processed group <Group surf_ts_plots_15s (id=4, status=done)>
+2016-09-07 15:20:34,294:omni        :INFO    :   Processing group <Group surf_ts_plots_30s (id=8, status=None)>
+2016-09-07 15:20:34,296:omni        :INFO    :     Processing node <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:20:34,297:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:20:34,298:omni        :DEBUG   : loading <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:20:34,413:omni        :DEBUG   : running <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:20:34,586:omni        :DEBUG   : saving <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:20:34,856:omni        :DEBUG   : finished <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:20:34,859:omni        :INFO    :     Processed <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:20:34,878:omni        :INFO    :   Processed group <Group surf_ts_plots_30s (id=8, status=done)>
+2016-09-07 15:20:34,879:omni        :INFO    :   Processing group <Group surf_ts_plots_60s (id=12, status=None)>
+2016-09-07 15:20:34,880:omni        :INFO    :     Processing node <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:20:34,882:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:20:34,882:omni        :DEBUG   : loading <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:20:34,989:omni        :DEBUG   : running <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:20:35,148:omni        :DEBUG   : saving <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:20:35,409:omni        :DEBUG   : finished <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:20:35,411:omni        :INFO    :     Processed <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:20:35,447:omni        :INFO    :   Processed group <Group surf_ts_plots_60s (id=12, status=done)>
+2016-09-07 15:20:35,448:omni        :INFO    :   Processing group <Group surf_ts_plots_no_graupel (id=16, status=None)>
+2016-09-07 15:20:35,449:omni        :INFO    :     Processing node <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:20:35,451:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:20:35,451:omni        :DEBUG   : loading <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:20:35,567:omni        :DEBUG   : running <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:20:35,741:omni        :DEBUG   : saving <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:20:36,007:omni        :DEBUG   : finished <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:20:36,010:omni        :INFO    :     Processed <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:20:36,028:omni        :INFO    :   Processed group <Group surf_ts_plots_no_graupel (id=16, status=done)>
+2016-09-07 15:20:36,029:omni        :INFO    :   Processing group <Group surf_ts_plots_large_dom (id=20, status=None)>
+2016-09-07 15:20:36,030:omni        :INFO    :     Processing node <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:20:36,033:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:20:36,033:omni        :DEBUG   : loading <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:20:36,284:omni        :DEBUG   : running <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:20:36,449:omni        :DEBUG   : saving <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:20:36,726:omni        :DEBUG   : finished <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:20:36,729:omni        :INFO    :     Processed <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:20:36,752:omni        :INFO    :   Processed group <Group surf_ts_plots_large_dom (id=20, status=done)>
+2016-09-07 15:20:36,772:omni        :INFO    : Processed batch <Batch batch3 (id=4, status=done)>
+2016-09-07 15:21:39,673:omni        :DEBUG   : Created root logger: omni.log
+2016-09-07 15:21:39,673:omni        :DEBUG   : omni process -fb batch3
+2016-09-07 15:21:39,673:omni        :DEBUG   : checking config
+2016-09-07 15:21:39,673:omni        :DEBUG   : config OK
+2016-09-07 15:21:39,674:omni        :WARNING : Disabling Python warnings
+2016-09-07 15:21:39,674:omni        :DEBUG   : running cmd: <module 'omni_cmds.process' from '/home/markmuetz/opt/omnium/src/python/omnium/omni_cmds/process.pyc'>
+2016-09-07 15:21:39,674:omni        :DEBUG   : catching all exceptions
+2016-09-07 15:21:39,700:omni        :INFO    : Processing batch <Batch batch3 (id=4, status=done)>
+2016-09-07 15:21:39,702:omni        :INFO    :   Processing group <Group surf_ts_plots_15s (id=4, status=done)>
+2016-09-07 15:21:39,704:omni        :INFO    :     Processing node <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:21:39,705:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:21:39,706:omni        :DEBUG   : loading <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:21:39,785:omni        :DEBUG   : running <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:21:40,032:omni        :ERROR   : 'Figure' object has no attribute 'title'
+2016-09-07 15:21:50,212:omni        :DEBUG   : Created root logger: omni.log
+2016-09-07 15:21:50,212:omni        :DEBUG   : omni process -fb batch3
+2016-09-07 15:21:50,212:omni        :DEBUG   : checking config
+2016-09-07 15:21:50,213:omni        :DEBUG   : config OK
+2016-09-07 15:21:50,213:omni        :WARNING : Disabling Python warnings
+2016-09-07 15:21:50,213:omni        :DEBUG   : running cmd: <module 'omni_cmds.process' from '/home/markmuetz/opt/omnium/src/python/omnium/omni_cmds/process.pyc'>
+2016-09-07 15:21:50,213:omni        :DEBUG   : catching all exceptions
+2016-09-07 15:21:50,238:omni        :INFO    : Processing batch <Batch batch3 (id=4, status=done)>
+2016-09-07 15:21:50,240:omni        :INFO    :   Processing group <Group surf_ts_plots_15s (id=4, status=done)>
+2016-09-07 15:21:50,243:omni        :INFO    :     Processing node <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:21:50,244:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:21:50,244:omni        :DEBUG   : loading <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:21:50,324:omni        :DEBUG   : running <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:21:50,632:omni        :ERROR   : 'Figure' object has no attribute 'set_title'
+2016-09-07 15:22:32,795:omni        :DEBUG   : Created root logger: omni.log
+2016-09-07 15:22:32,795:omni        :DEBUG   : omni process -fb batch3
+2016-09-07 15:22:32,796:omni        :DEBUG   : checking config
+2016-09-07 15:22:32,796:omni        :DEBUG   : config OK
+2016-09-07 15:22:32,796:omni        :WARNING : Disabling Python warnings
+2016-09-07 15:22:32,796:omni        :DEBUG   : running cmd: <module 'omni_cmds.process' from '/home/markmuetz/opt/omnium/src/python/omnium/omni_cmds/process.pyc'>
+2016-09-07 15:22:32,796:omni        :DEBUG   : catching all exceptions
+2016-09-07 15:22:32,820:omni        :INFO    : Processing batch <Batch batch3 (id=4, status=done)>
+2016-09-07 15:22:32,821:omni        :INFO    :   Processing group <Group surf_ts_plots_15s (id=4, status=done)>
+2016-09-07 15:22:32,823:omni        :INFO    :     Processing node <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:22:32,825:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:22:32,825:omni        :DEBUG   : loading <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:22:32,903:omni        :DEBUG   : running <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:22:33,184:omni        :DEBUG   : saving <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:22:33,563:omni        :DEBUG   : finished <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:22:33,566:omni        :INFO    :     Processed <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:22:33,603:omni        :INFO    :   Processed group <Group surf_ts_plots_15s (id=4, status=done)>
+2016-09-07 15:22:33,605:omni        :INFO    :   Processing group <Group surf_ts_plots_30s (id=8, status=done)>
+2016-09-07 15:22:33,608:omni        :INFO    :     Processing node <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:22:33,610:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:22:33,610:omni        :DEBUG   : loading <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:22:33,719:omni        :DEBUG   : running <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:22:33,884:omni        :DEBUG   : saving <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:22:34,169:omni        :DEBUG   : finished <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:22:34,171:omni        :INFO    :     Processed <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:22:34,194:omni        :INFO    :   Processed group <Group surf_ts_plots_30s (id=8, status=done)>
+2016-09-07 15:22:34,196:omni        :INFO    :   Processing group <Group surf_ts_plots_60s (id=12, status=done)>
+2016-09-07 15:22:34,198:omni        :INFO    :     Processing node <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:22:34,200:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:22:34,201:omni        :DEBUG   : loading <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:22:34,340:omni        :DEBUG   : running <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:22:34,514:omni        :DEBUG   : saving <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:22:34,786:omni        :DEBUG   : finished <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:22:34,788:omni        :INFO    :     Processed <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:22:34,824:omni        :INFO    :   Processed group <Group surf_ts_plots_60s (id=12, status=done)>
+2016-09-07 15:22:34,824:omni        :INFO    :   Processing group <Group surf_ts_plots_no_graupel (id=16, status=done)>
+2016-09-07 15:22:34,826:omni        :INFO    :     Processing node <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:22:34,827:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:22:34,827:omni        :DEBUG   : loading <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:22:34,952:omni        :DEBUG   : running <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:22:35,139:omni        :DEBUG   : saving <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:22:35,450:omni        :DEBUG   : finished <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:22:35,453:omni        :INFO    :     Processed <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:22:35,476:omni        :INFO    :   Processed group <Group surf_ts_plots_no_graupel (id=16, status=done)>
+2016-09-07 15:22:35,478:omni        :INFO    :   Processing group <Group surf_ts_plots_large_dom (id=20, status=done)>
+2016-09-07 15:22:35,479:omni        :INFO    :     Processing node <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:22:35,481:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:22:35,481:omni        :DEBUG   : loading <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:22:35,748:omni        :DEBUG   : running <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:22:35,914:omni        :DEBUG   : saving <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:22:36,208:omni        :DEBUG   : finished <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:22:36,212:omni        :INFO    :     Processed <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:22:36,247:omni        :INFO    :   Processed group <Group surf_ts_plots_large_dom (id=20, status=done)>
+2016-09-07 15:22:36,271:omni        :INFO    : Processed batch <Batch batch3 (id=4, status=done)>
+2016-09-07 15:26:16,827:omni        :DEBUG   : Created root logger: omni.log
+2016-09-07 15:26:16,827:omni        :DEBUG   : omni process -fb batch3
+2016-09-07 15:26:16,827:omni        :DEBUG   : checking config
+2016-09-07 15:26:16,828:omni        :DEBUG   : config OK
+2016-09-07 15:26:16,828:omni        :WARNING : Disabling Python warnings
+2016-09-07 15:26:16,828:omni        :DEBUG   : running cmd: <module 'omni_cmds.process' from '/home/markmuetz/opt/omnium/src/python/omnium/omni_cmds/process.pyc'>
+2016-09-07 15:26:16,829:omni        :DEBUG   : catching all exceptions
+2016-09-07 15:26:16,865:omni        :INFO    : Processing batch <Batch batch3 (id=4, status=done)>
+2016-09-07 15:26:16,868:omni        :INFO    :   Processing group <Group surf_ts_plots_15s (id=4, status=done)>
+2016-09-07 15:26:16,871:omni        :INFO    :     Processing node <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:26:16,874:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:26:16,874:omni        :DEBUG   : loading <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:26:16,969:omni        :DEBUG   : running <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:26:17,232:omni        :ERROR   : 'AxesSubplot' object has no attribute 'ylim'
+2016-09-07 15:26:28,121:omni        :DEBUG   : Created root logger: omni.log
+2016-09-07 15:26:28,122:omni        :DEBUG   : omni process -fb batch3
+2016-09-07 15:26:28,122:omni        :DEBUG   : checking config
+2016-09-07 15:26:28,122:omni        :DEBUG   : config OK
+2016-09-07 15:26:28,122:omni        :WARNING : Disabling Python warnings
+2016-09-07 15:26:28,122:omni        :DEBUG   : running cmd: <module 'omni_cmds.process' from '/home/markmuetz/opt/omnium/src/python/omnium/omni_cmds/process.pyc'>
+2016-09-07 15:26:28,122:omni        :DEBUG   : catching all exceptions
+2016-09-07 15:26:28,145:omni        :INFO    : Processing batch <Batch batch3 (id=4, status=done)>
+2016-09-07 15:26:28,147:omni        :INFO    :   Processing group <Group surf_ts_plots_15s (id=4, status=done)>
+2016-09-07 15:26:28,149:omni        :INFO    :     Processing node <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:26:28,151:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:26:28,151:omni        :DEBUG   : loading <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:26:28,229:omni        :DEBUG   : running <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:26:28,510:omni        :DEBUG   : saving <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:26:28,817:omni        :DEBUG   : finished <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:26:28,822:omni        :INFO    :     Processed <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:26:28,856:omni        :INFO    :   Processed group <Group surf_ts_plots_15s (id=4, status=done)>
+2016-09-07 15:26:28,857:omni        :INFO    :   Processing group <Group surf_ts_plots_30s (id=8, status=done)>
+2016-09-07 15:26:28,859:omni        :INFO    :     Processing node <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:26:28,861:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:26:28,861:omni        :DEBUG   : loading <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:26:28,983:omni        :DEBUG   : running <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:26:29,142:omni        :DEBUG   : saving <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:26:29,385:omni        :DEBUG   : finished <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:26:29,388:omni        :INFO    :     Processed <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:26:29,413:omni        :INFO    :   Processed group <Group surf_ts_plots_30s (id=8, status=done)>
+2016-09-07 15:26:29,414:omni        :INFO    :   Processing group <Group surf_ts_plots_60s (id=12, status=done)>
+2016-09-07 15:26:29,415:omni        :INFO    :     Processing node <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:26:29,417:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:26:29,417:omni        :DEBUG   : loading <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:26:29,534:omni        :DEBUG   : running <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:26:29,703:omni        :DEBUG   : saving <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:26:29,942:omni        :DEBUG   : finished <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:26:29,944:omni        :INFO    :     Processed <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:26:29,976:omni        :INFO    :   Processed group <Group surf_ts_plots_60s (id=12, status=done)>
+2016-09-07 15:26:29,978:omni        :INFO    :   Processing group <Group surf_ts_plots_no_graupel (id=16, status=done)>
+2016-09-07 15:26:29,979:omni        :INFO    :     Processing node <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:26:29,981:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:26:29,981:omni        :DEBUG   : loading <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:26:30,088:omni        :DEBUG   : running <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:26:30,254:omni        :DEBUG   : saving <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:26:30,492:omni        :DEBUG   : finished <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:26:30,495:omni        :INFO    :     Processed <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:26:30,520:omni        :INFO    :   Processed group <Group surf_ts_plots_no_graupel (id=16, status=done)>
+2016-09-07 15:26:30,522:omni        :INFO    :   Processing group <Group surf_ts_plots_large_dom (id=20, status=done)>
+2016-09-07 15:26:30,523:omni        :INFO    :     Processing node <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:26:30,525:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:26:30,525:omni        :DEBUG   : loading <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:26:30,768:omni        :DEBUG   : running <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:26:30,956:omni        :DEBUG   : saving <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:26:31,193:omni        :DEBUG   : finished <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:26:31,195:omni        :INFO    :     Processed <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:26:31,228:omni        :INFO    :   Processed group <Group surf_ts_plots_large_dom (id=20, status=done)>
+2016-09-07 15:26:31,255:omni        :INFO    : Processed batch <Batch batch3 (id=4, status=done)>
+2016-09-07 15:27:06,296:omni        :DEBUG   : Created root logger: omni.log
+2016-09-07 15:27:06,296:omni        :DEBUG   : omni process -fb batch3
+2016-09-07 15:27:06,296:omni        :DEBUG   : checking config
+2016-09-07 15:27:06,297:omni        :DEBUG   : config OK
+2016-09-07 15:27:06,297:omni        :WARNING : Disabling Python warnings
+2016-09-07 15:27:06,297:omni        :DEBUG   : running cmd: <module 'omni_cmds.process' from '/home/markmuetz/opt/omnium/src/python/omnium/omni_cmds/process.pyc'>
+2016-09-07 15:27:06,297:omni        :DEBUG   : catching all exceptions
+2016-09-07 15:27:06,322:omni        :INFO    : Processing batch <Batch batch3 (id=4, status=done)>
+2016-09-07 15:27:06,324:omni        :INFO    :   Processing group <Group surf_ts_plots_15s (id=4, status=done)>
+2016-09-07 15:27:06,327:omni        :INFO    :     Processing node <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:27:06,328:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:27:06,328:omni        :DEBUG   : loading <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:27:06,421:omni        :DEBUG   : running <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:27:06,697:omni        :DEBUG   : saving <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:27:06,986:omni        :DEBUG   : finished <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:27:06,990:omni        :INFO    :     Processed <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:27:07,023:omni        :INFO    :   Processed group <Group surf_ts_plots_15s (id=4, status=done)>
+2016-09-07 15:27:07,024:omni        :INFO    :   Processing group <Group surf_ts_plots_30s (id=8, status=done)>
+2016-09-07 15:27:07,025:omni        :INFO    :     Processing node <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:27:07,027:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:27:07,027:omni        :DEBUG   : loading <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:27:07,133:omni        :DEBUG   : running <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:27:07,299:omni        :DEBUG   : saving <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:27:07,541:omni        :DEBUG   : finished <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:27:07,543:omni        :INFO    :     Processed <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:27:07,569:omni        :INFO    :   Processed group <Group surf_ts_plots_30s (id=8, status=done)>
+2016-09-07 15:27:07,570:omni        :INFO    :   Processing group <Group surf_ts_plots_60s (id=12, status=done)>
+2016-09-07 15:27:07,572:omni        :INFO    :     Processing node <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:27:07,575:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:27:07,575:omni        :DEBUG   : loading <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:27:07,695:omni        :DEBUG   : running <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:27:07,867:omni        :DEBUG   : saving <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:27:08,109:omni        :DEBUG   : finished <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:27:08,112:omni        :INFO    :     Processed <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:27:08,149:omni        :INFO    :   Processed group <Group surf_ts_plots_60s (id=12, status=done)>
+2016-09-07 15:27:08,150:omni        :INFO    :   Processing group <Group surf_ts_plots_no_graupel (id=16, status=done)>
+2016-09-07 15:27:08,152:omni        :INFO    :     Processing node <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:27:08,153:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:27:08,153:omni        :DEBUG   : loading <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:27:08,272:omni        :DEBUG   : running <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:27:08,487:omni        :DEBUG   : saving <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:27:08,756:omni        :DEBUG   : finished <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:27:08,758:omni        :INFO    :     Processed <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:27:08,805:omni        :INFO    :   Processed group <Group surf_ts_plots_no_graupel (id=16, status=done)>
+2016-09-07 15:27:08,806:omni        :INFO    :   Processing group <Group surf_ts_plots_large_dom (id=20, status=done)>
+2016-09-07 15:27:08,808:omni        :INFO    :     Processing node <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:27:08,810:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:27:08,811:omni        :DEBUG   : loading <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:27:09,086:omni        :DEBUG   : running <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:27:09,266:omni        :DEBUG   : saving <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:27:09,504:omni        :DEBUG   : finished <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:27:09,506:omni        :INFO    :     Processed <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:27:09,534:omni        :INFO    :   Processed group <Group surf_ts_plots_large_dom (id=20, status=done)>
+2016-09-07 15:27:09,564:omni        :INFO    : Processed batch <Batch batch3 (id=4, status=done)>
+2016-09-07 15:37:04,310:omni        :DEBUG   : Created root logger: omni.log
+2016-09-07 15:37:04,310:omni        :DEBUG   : omni process -fb batch3
+2016-09-07 15:37:04,310:omni        :DEBUG   : checking config
+2016-09-07 15:37:04,310:omni        :DEBUG   : config OK
+2016-09-07 15:37:04,310:omni        :WARNING : Disabling Python warnings
+2016-09-07 15:37:04,310:omni        :DEBUG   : running cmd: <module 'omni_cmds.process' from '/home/markmuetz/opt/omnium/src/python/omnium/omni_cmds/process.pyc'>
+2016-09-07 15:37:04,311:omni        :DEBUG   : catching all exceptions
+2016-09-07 15:37:04,335:omni        :INFO    : Processing batch <Batch batch3 (id=4, status=done)>
+2016-09-07 15:37:04,337:omni        :INFO    :   Processing group <Group surf_ts_plots_15s (id=4, status=done)>
+2016-09-07 15:37:04,340:omni        :INFO    :     Processing node <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:37:04,342:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:37:04,342:omni        :DEBUG   : loading <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:37:04,430:omni        :DEBUG   : running <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:37:04,729:omni        :DEBUG   : saving <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:37:04,999:omni        :DEBUG   : finished <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:37:05,002:omni        :INFO    :     Processed <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:37:05,025:omni        :INFO    :   Processed group <Group surf_ts_plots_15s (id=4, status=done)>
+2016-09-07 15:37:05,026:omni        :INFO    :   Processing group <Group surf_ts_plots_30s (id=8, status=done)>
+2016-09-07 15:37:05,028:omni        :INFO    :     Processing node <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:37:05,031:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:37:05,031:omni        :DEBUG   : loading <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:37:05,140:omni        :DEBUG   : running <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:37:05,302:omni        :DEBUG   : saving <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:37:05,527:omni        :DEBUG   : finished <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:37:05,530:omni        :INFO    :     Processed <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:37:05,567:omni        :INFO    :   Processed group <Group surf_ts_plots_30s (id=8, status=done)>
+2016-09-07 15:37:05,568:omni        :INFO    :   Processing group <Group surf_ts_plots_60s (id=12, status=done)>
+2016-09-07 15:37:05,570:omni        :INFO    :     Processing node <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:37:05,572:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:37:05,573:omni        :DEBUG   : loading <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:37:05,690:omni        :DEBUG   : running <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:37:05,857:omni        :DEBUG   : saving <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:37:06,087:omni        :DEBUG   : finished <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:37:06,089:omni        :INFO    :     Processed <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:37:06,111:omni        :INFO    :   Processed group <Group surf_ts_plots_60s (id=12, status=done)>
+2016-09-07 15:37:06,112:omni        :INFO    :   Processing group <Group surf_ts_plots_no_graupel (id=16, status=done)>
+2016-09-07 15:37:06,113:omni        :INFO    :     Processing node <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:37:06,115:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:37:06,115:omni        :DEBUG   : loading <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:37:06,232:omni        :DEBUG   : running <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:37:06,401:omni        :DEBUG   : saving <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:37:06,631:omni        :DEBUG   : finished <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:37:06,633:omni        :INFO    :     Processed <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:37:06,670:omni        :INFO    :   Processed group <Group surf_ts_plots_no_graupel (id=16, status=done)>
+2016-09-07 15:37:06,673:omni        :INFO    :   Processing group <Group surf_ts_plots_large_dom (id=20, status=done)>
+2016-09-07 15:37:06,675:omni        :INFO    :     Processing node <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:37:06,678:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:37:06,678:omni        :DEBUG   : loading <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:37:06,937:omni        :DEBUG   : running <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:37:07,098:omni        :DEBUG   : saving <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:37:07,326:omni        :DEBUG   : finished <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:37:07,329:omni        :INFO    :     Processed <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:37:07,352:omni        :INFO    :   Processed group <Group surf_ts_plots_large_dom (id=20, status=done)>
+2016-09-07 15:37:07,389:omni        :INFO    : Processed batch <Batch batch3 (id=4, status=done)>
+2016-09-07 15:38:18,740:omni        :DEBUG   : Created root logger: omni.log
+2016-09-07 15:38:18,740:omni        :DEBUG   : omni process -fb batch3
+2016-09-07 15:38:18,740:omni        :DEBUG   : checking config
+2016-09-07 15:38:18,741:omni        :DEBUG   : config OK
+2016-09-07 15:38:18,741:omni        :WARNING : Disabling Python warnings
+2016-09-07 15:38:18,741:omni        :DEBUG   : running cmd: <module 'omni_cmds.process' from '/home/markmuetz/opt/omnium/src/python/omnium/omni_cmds/process.pyc'>
+2016-09-07 15:38:18,741:omni        :DEBUG   : catching all exceptions
+2016-09-07 15:38:18,765:omni        :INFO    : Processing batch <Batch batch3 (id=4, status=done)>
+2016-09-07 15:38:18,767:omni        :INFO    :   Processing group <Group surf_ts_plots_15s (id=4, status=done)>
+2016-09-07 15:38:18,770:omni        :INFO    :     Processing node <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:38:18,772:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:38:18,772:omni        :DEBUG   : loading <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:38:18,865:omni        :DEBUG   : running <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:38:19,141:omni        :DEBUG   : saving <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:38:19,418:omni        :DEBUG   : finished <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:38:19,422:omni        :INFO    :     Processed <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:38:19,448:omni        :INFO    :   Processed group <Group surf_ts_plots_15s (id=4, status=done)>
+2016-09-07 15:38:19,449:omni        :INFO    :   Processing group <Group surf_ts_plots_30s (id=8, status=done)>
+2016-09-07 15:38:19,451:omni        :INFO    :     Processing node <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:38:19,454:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:38:19,454:omni        :DEBUG   : loading <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:38:19,572:omni        :DEBUG   : running <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:38:19,734:omni        :DEBUG   : saving <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:38:19,953:omni        :DEBUG   : finished <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:38:19,956:omni        :INFO    :     Processed <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:38:19,993:omni        :INFO    :   Processed group <Group surf_ts_plots_30s (id=8, status=done)>
+2016-09-07 15:38:19,994:omni        :INFO    :   Processing group <Group surf_ts_plots_60s (id=12, status=done)>
+2016-09-07 15:38:19,996:omni        :INFO    :     Processing node <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:38:19,998:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:38:19,999:omni        :DEBUG   : loading <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:38:20,113:omni        :DEBUG   : running <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:38:20,282:omni        :DEBUG   : saving <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:38:20,508:omni        :DEBUG   : finished <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:38:20,511:omni        :INFO    :     Processed <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:38:20,533:omni        :INFO    :   Processed group <Group surf_ts_plots_60s (id=12, status=done)>
+2016-09-07 15:38:20,535:omni        :INFO    :   Processing group <Group surf_ts_plots_no_graupel (id=16, status=done)>
+2016-09-07 15:38:20,537:omni        :INFO    :     Processing node <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:38:20,540:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:38:20,540:omni        :DEBUG   : loading <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:38:20,655:omni        :DEBUG   : running <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:38:20,817:omni        :DEBUG   : saving <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:38:21,037:omni        :DEBUG   : finished <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:38:21,040:omni        :INFO    :     Processed <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:38:21,077:omni        :INFO    :   Processed group <Group surf_ts_plots_no_graupel (id=16, status=done)>
+2016-09-07 15:38:21,079:omni        :INFO    :   Processing group <Group surf_ts_plots_large_dom (id=20, status=done)>
+2016-09-07 15:38:21,081:omni        :INFO    :     Processing node <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:38:21,084:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:38:21,084:omni        :DEBUG   : loading <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:38:21,335:omni        :DEBUG   : running <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:38:21,499:omni        :DEBUG   : saving <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:38:21,730:omni        :DEBUG   : finished <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:38:21,732:omni        :INFO    :     Processed <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:38:21,755:omni        :INFO    :   Processed group <Group surf_ts_plots_large_dom (id=20, status=done)>
+2016-09-07 15:38:21,792:omni        :INFO    : Processed batch <Batch batch3 (id=4, status=done)>
+2016-09-07 15:41:13,904:omni        :DEBUG   : Created root logger: omni.log
+2016-09-07 15:41:13,904:omni        :DEBUG   : omni process -fb batch3
+2016-09-07 15:41:13,904:omni        :DEBUG   : checking config
+2016-09-07 15:41:13,905:omni        :DEBUG   : config OK
+2016-09-07 15:41:13,905:omni        :WARNING : Disabling Python warnings
+2016-09-07 15:41:13,905:omni        :DEBUG   : running cmd: <module 'omni_cmds.process' from '/home/markmuetz/opt/omnium/src/python/omnium/omni_cmds/process.pyc'>
+2016-09-07 15:41:13,905:omni        :DEBUG   : catching all exceptions
+2016-09-07 15:41:13,928:omni        :INFO    : Processing batch <Batch batch3 (id=4, status=done)>
+2016-09-07 15:41:13,930:omni        :INFO    :   Processing group <Group surf_ts_plots_15s (id=4, status=done)>
+2016-09-07 15:41:13,933:omni        :INFO    :     Processing node <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:41:13,935:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:41:13,935:omni        :DEBUG   : loading <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:41:14,027:omni        :DEBUG   : running <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:41:14,316:omni        :DEBUG   : saving <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:41:14,620:omni        :DEBUG   : finished <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:41:14,623:omni        :INFO    :     Processed <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:41:14,661:omni        :INFO    :   Processed group <Group surf_ts_plots_15s (id=4, status=done)>
+2016-09-07 15:41:14,662:omni        :INFO    :   Processing group <Group surf_ts_plots_30s (id=8, status=done)>
+2016-09-07 15:41:14,663:omni        :INFO    :     Processing node <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:41:14,665:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:41:14,665:omni        :DEBUG   : loading <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:41:14,773:omni        :DEBUG   : running <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:41:14,936:omni        :DEBUG   : saving <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:41:15,145:omni        :DEBUG   : finished <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:41:15,148:omni        :INFO    :     Processed <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:41:15,166:omni        :INFO    :   Processed group <Group surf_ts_plots_30s (id=8, status=done)>
+2016-09-07 15:41:15,167:omni        :INFO    :   Processing group <Group surf_ts_plots_60s (id=12, status=done)>
+2016-09-07 15:41:15,169:omni        :INFO    :     Processing node <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:41:15,170:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:41:15,170:omni        :DEBUG   : loading <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:41:15,285:omni        :DEBUG   : running <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:41:15,455:omni        :DEBUG   : saving <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:41:15,670:omni        :DEBUG   : finished <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:41:15,672:omni        :INFO    :     Processed <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:41:15,711:omni        :INFO    :   Processed group <Group surf_ts_plots_60s (id=12, status=done)>
+2016-09-07 15:41:15,713:omni        :INFO    :   Processing group <Group surf_ts_plots_no_graupel (id=16, status=done)>
+2016-09-07 15:41:15,715:omni        :INFO    :     Processing node <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:41:15,717:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:41:15,717:omni        :DEBUG   : loading <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:41:15,835:omni        :DEBUG   : running <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:41:16,004:omni        :DEBUG   : saving <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:41:16,236:omni        :DEBUG   : finished <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:41:16,239:omni        :INFO    :     Processed <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:41:16,258:omni        :INFO    :   Processed group <Group surf_ts_plots_no_graupel (id=16, status=done)>
+2016-09-07 15:41:16,259:omni        :INFO    :   Processing group <Group surf_ts_plots_large_dom (id=20, status=done)>
+2016-09-07 15:41:16,260:omni        :INFO    :     Processing node <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:41:16,261:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:41:16,261:omni        :DEBUG   : loading <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:41:16,503:omni        :DEBUG   : running <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:41:16,668:omni        :DEBUG   : saving <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:41:16,907:omni        :DEBUG   : finished <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:41:16,910:omni        :INFO    :     Processed <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:41:16,948:omni        :INFO    :   Processed group <Group surf_ts_plots_large_dom (id=20, status=done)>
+2016-09-07 15:41:16,967:omni        :INFO    : Processed batch <Batch batch3 (id=4, status=done)>
+2016-09-07 15:42:49,488:omni        :DEBUG   : Created root logger: omni.log
+2016-09-07 15:42:49,488:omni        :DEBUG   : omni process -fb batch3
+2016-09-07 15:42:49,488:omni        :DEBUG   : checking config
+2016-09-07 15:42:49,489:omni        :DEBUG   : config OK
+2016-09-07 15:42:49,489:omni        :WARNING : Disabling Python warnings
+2016-09-07 15:42:49,489:omni        :DEBUG   : running cmd: <module 'omni_cmds.process' from '/home/markmuetz/opt/omnium/src/python/omnium/omni_cmds/process.pyc'>
+2016-09-07 15:42:49,489:omni        :DEBUG   : catching all exceptions
+2016-09-07 15:42:49,514:omni        :INFO    : Processing batch <Batch batch3 (id=4, status=done)>
+2016-09-07 15:42:49,516:omni        :INFO    :   Processing group <Group surf_ts_plots_15s (id=4, status=done)>
+2016-09-07 15:42:49,518:omni        :INFO    :     Processing node <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:42:49,520:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:42:49,520:omni        :DEBUG   : loading <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:42:49,600:omni        :DEBUG   : running <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:42:49,991:omni        :DEBUG   : saving <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:42:50,218:omni        :DEBUG   : finished <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:42:50,222:omni        :INFO    :     Processed <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:42:50,257:omni        :INFO    :   Processed group <Group surf_ts_plots_15s (id=4, status=done)>
+2016-09-07 15:42:50,259:omni        :INFO    :   Processing group <Group surf_ts_plots_30s (id=8, status=done)>
+2016-09-07 15:42:50,261:omni        :INFO    :     Processing node <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:42:50,263:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:42:50,263:omni        :DEBUG   : loading <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:42:50,381:omni        :DEBUG   : running <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:42:50,622:omni        :DEBUG   : saving <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:42:50,801:omni        :DEBUG   : finished <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:42:50,803:omni        :INFO    :     Processed <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:42:50,825:omni        :INFO    :   Processed group <Group surf_ts_plots_30s (id=8, status=done)>
+2016-09-07 15:42:50,826:omni        :INFO    :   Processing group <Group surf_ts_plots_60s (id=12, status=done)>
+2016-09-07 15:42:50,827:omni        :INFO    :     Processing node <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:42:50,828:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:42:50,829:omni        :DEBUG   : loading <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:42:50,940:omni        :DEBUG   : running <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:42:51,178:omni        :DEBUG   : saving <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:42:51,358:omni        :DEBUG   : finished <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:42:51,361:omni        :INFO    :     Processed <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:42:51,395:omni        :INFO    :   Processed group <Group surf_ts_plots_60s (id=12, status=done)>
+2016-09-07 15:42:51,397:omni        :INFO    :   Processing group <Group surf_ts_plots_no_graupel (id=16, status=done)>
+2016-09-07 15:42:51,398:omni        :INFO    :     Processing node <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:42:51,400:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:42:51,400:omni        :DEBUG   : loading <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:42:51,519:omni        :DEBUG   : running <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:42:51,759:omni        :DEBUG   : saving <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:42:51,938:omni        :DEBUG   : finished <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:42:51,940:omni        :INFO    :     Processed <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:42:51,958:omni        :INFO    :   Processed group <Group surf_ts_plots_no_graupel (id=16, status=done)>
+2016-09-07 15:42:51,959:omni        :INFO    :   Processing group <Group surf_ts_plots_large_dom (id=20, status=done)>
+2016-09-07 15:42:51,960:omni        :INFO    :     Processing node <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:42:51,962:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:42:51,962:omni        :DEBUG   : loading <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:42:52,207:omni        :DEBUG   : running <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:42:52,447:omni        :DEBUG   : saving <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:42:52,629:omni        :DEBUG   : finished <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:42:52,631:omni        :INFO    :     Processed <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:42:52,655:omni        :INFO    :   Processed group <Group surf_ts_plots_large_dom (id=20, status=done)>
+2016-09-07 15:42:52,675:omni        :INFO    : Processed batch <Batch batch3 (id=4, status=done)>
+2016-09-07 15:43:49,214:omni        :DEBUG   : Created root logger: omni.log
+2016-09-07 15:43:49,214:omni        :DEBUG   : omni process -fb batch3
+2016-09-07 15:43:49,214:omni        :DEBUG   : checking config
+2016-09-07 15:43:49,217:omni        :DEBUG   : config OK
+2016-09-07 15:43:49,217:omni        :WARNING : Disabling Python warnings
+2016-09-07 15:43:49,217:omni        :DEBUG   : running cmd: <module 'omni_cmds.process' from '/home/markmuetz/opt/omnium/src/python/omnium/omni_cmds/process.pyc'>
+2016-09-07 15:43:49,217:omni        :DEBUG   : catching all exceptions
+2016-09-07 15:43:49,244:omni        :INFO    : Processing batch <Batch batch3 (id=4, status=done)>
+2016-09-07 15:43:49,246:omni        :INFO    :   Processing group <Group surf_ts_plots_15s (id=4, status=done)>
+2016-09-07 15:43:49,251:omni        :INFO    :     Processing node <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:43:49,252:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:43:49,252:omni        :DEBUG   : loading <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:43:49,342:omni        :DEBUG   : running <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:43:49,669:omni        :DEBUG   : saving <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:43:49,953:omni        :DEBUG   : finished <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:43:49,956:omni        :INFO    :     Processed <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:43:49,979:omni        :INFO    :   Processed group <Group surf_ts_plots_15s (id=4, status=done)>
+2016-09-07 15:43:49,980:omni        :INFO    :   Processing group <Group surf_ts_plots_30s (id=8, status=done)>
+2016-09-07 15:43:49,981:omni        :INFO    :     Processing node <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:43:49,982:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:43:49,982:omni        :DEBUG   : loading <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:43:50,111:omni        :DEBUG   : running <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:43:50,281:omni        :DEBUG   : saving <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:43:50,495:omni        :DEBUG   : finished <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:43:50,498:omni        :INFO    :     Processed <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:43:50,534:omni        :INFO    :   Processed group <Group surf_ts_plots_30s (id=8, status=done)>
+2016-09-07 15:43:50,535:omni        :INFO    :   Processing group <Group surf_ts_plots_60s (id=12, status=done)>
+2016-09-07 15:43:50,537:omni        :INFO    :     Processing node <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:43:50,539:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:43:50,539:omni        :DEBUG   : loading <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:43:50,653:omni        :DEBUG   : running <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:43:50,821:omni        :DEBUG   : saving <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:43:51,030:omni        :DEBUG   : finished <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:43:51,034:omni        :INFO    :     Processed <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:43:51,058:omni        :INFO    :   Processed group <Group surf_ts_plots_60s (id=12, status=done)>
+2016-09-07 15:43:51,059:omni        :INFO    :   Processing group <Group surf_ts_plots_no_graupel (id=16, status=done)>
+2016-09-07 15:43:51,060:omni        :INFO    :     Processing node <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:43:51,062:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:43:51,062:omni        :DEBUG   : loading <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:43:51,172:omni        :DEBUG   : running <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:43:51,346:omni        :DEBUG   : saving <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:43:51,558:omni        :DEBUG   : finished <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:43:51,561:omni        :INFO    :     Processed <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:43:51,596:omni        :INFO    :   Processed group <Group surf_ts_plots_no_graupel (id=16, status=done)>
+2016-09-07 15:43:51,597:omni        :INFO    :   Processing group <Group surf_ts_plots_large_dom (id=20, status=done)>
+2016-09-07 15:43:51,598:omni        :INFO    :     Processing node <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:43:51,600:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:43:51,600:omni        :DEBUG   : loading <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:43:51,845:omni        :DEBUG   : running <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:43:52,013:omni        :DEBUG   : saving <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:43:52,242:omni        :DEBUG   : finished <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:43:52,246:omni        :INFO    :     Processed <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:43:52,267:omni        :INFO    :   Processed group <Group surf_ts_plots_large_dom (id=20, status=done)>
+2016-09-07 15:43:52,304:omni        :INFO    : Processed batch <Batch batch3 (id=4, status=done)>
+2016-09-07 15:45:25,519:omni        :DEBUG   : Created root logger: omni.log
+2016-09-07 15:45:25,519:omni        :DEBUG   : omni process -fb batch3
+2016-09-07 15:45:25,520:omni        :DEBUG   : checking config
+2016-09-07 15:45:25,520:omni        :DEBUG   : config OK
+2016-09-07 15:45:25,521:omni        :WARNING : Disabling Python warnings
+2016-09-07 15:45:25,521:omni        :DEBUG   : running cmd: <module 'omni_cmds.process' from '/home/markmuetz/opt/omnium/src/python/omnium/omni_cmds/process.pyc'>
+2016-09-07 15:45:25,521:omni        :DEBUG   : catching all exceptions
+2016-09-07 15:45:25,552:omni        :INFO    : Processing batch <Batch batch3 (id=4, status=done)>
+2016-09-07 15:45:25,555:omni        :INFO    :   Processing group <Group surf_ts_plots_15s (id=4, status=done)>
+2016-09-07 15:45:25,558:omni        :INFO    :     Processing node <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:45:25,561:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:45:25,561:omni        :DEBUG   : loading <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:45:25,648:omni        :DEBUG   : running <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:45:25,922:omni        :ERROR   : 'AxesSubplot' object has no attribute 'set_ticks'
+2016-09-07 15:45:40,861:omni        :DEBUG   : Created root logger: omni.log
+2016-09-07 15:45:40,861:omni        :DEBUG   : omni process -fb batch3
+2016-09-07 15:45:40,861:omni        :DEBUG   : checking config
+2016-09-07 15:45:40,862:omni        :DEBUG   : config OK
+2016-09-07 15:45:40,862:omni        :WARNING : Disabling Python warnings
+2016-09-07 15:45:40,862:omni        :DEBUG   : running cmd: <module 'omni_cmds.process' from '/home/markmuetz/opt/omnium/src/python/omnium/omni_cmds/process.pyc'>
+2016-09-07 15:45:40,862:omni        :DEBUG   : catching all exceptions
+2016-09-07 15:45:40,887:omni        :INFO    : Processing batch <Batch batch3 (id=4, status=done)>
+2016-09-07 15:45:40,889:omni        :INFO    :   Processing group <Group surf_ts_plots_15s (id=4, status=done)>
+2016-09-07 15:45:40,891:omni        :INFO    :     Processing node <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:45:40,892:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:45:40,892:omni        :DEBUG   : loading <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:45:40,971:omni        :DEBUG   : running <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:45:41,246:omni        :ERROR   : 'AxesSubplot' object has no attribute 'set_ticklabels'
+2016-09-07 15:46:06,870:omni        :DEBUG   : Created root logger: omni.log
+2016-09-07 15:46:06,870:omni        :DEBUG   : omni process -fb batch3
+2016-09-07 15:46:06,870:omni        :DEBUG   : checking config
+2016-09-07 15:46:06,871:omni        :DEBUG   : config OK
+2016-09-07 15:46:06,871:omni        :WARNING : Disabling Python warnings
+2016-09-07 15:46:06,871:omni        :DEBUG   : running cmd: <module 'omni_cmds.process' from '/home/markmuetz/opt/omnium/src/python/omnium/omni_cmds/process.pyc'>
+2016-09-07 15:46:06,871:omni        :DEBUG   : catching all exceptions
+2016-09-07 15:46:06,897:omni        :INFO    : Processing batch <Batch batch3 (id=4, status=done)>
+2016-09-07 15:46:06,899:omni        :INFO    :   Processing group <Group surf_ts_plots_15s (id=4, status=done)>
+2016-09-07 15:46:06,902:omni        :INFO    :     Processing node <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:46:06,903:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:46:06,903:omni        :DEBUG   : loading <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:46:06,981:omni        :DEBUG   : running <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:46:07,273:omni        :DEBUG   : saving <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:46:07,433:omni        :DEBUG   : finished <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:46:07,438:omni        :INFO    :     Processed <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:46:07,467:omni        :INFO    :   Processed group <Group surf_ts_plots_15s (id=4, status=done)>
+2016-09-07 15:46:07,468:omni        :INFO    :   Processing group <Group surf_ts_plots_30s (id=8, status=done)>
+2016-09-07 15:46:07,471:omni        :INFO    :     Processing node <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:46:07,473:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:46:07,474:omni        :DEBUG   : loading <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:46:07,594:omni        :DEBUG   : running <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:46:07,759:omni        :DEBUG   : saving <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:46:07,884:omni        :DEBUG   : finished <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:46:07,886:omni        :INFO    :     Processed <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:46:07,917:omni        :INFO    :   Processed group <Group surf_ts_plots_30s (id=8, status=done)>
+2016-09-07 15:46:07,918:omni        :INFO    :   Processing group <Group surf_ts_plots_60s (id=12, status=done)>
+2016-09-07 15:46:07,921:omni        :INFO    :     Processing node <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:46:07,924:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:46:07,925:omni        :DEBUG   : loading <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:46:08,046:omni        :DEBUG   : running <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:46:08,216:omni        :DEBUG   : saving <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:46:08,342:omni        :DEBUG   : finished <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:46:08,345:omni        :INFO    :     Processed <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:46:08,375:omni        :INFO    :   Processed group <Group surf_ts_plots_60s (id=12, status=done)>
+2016-09-07 15:46:08,377:omni        :INFO    :   Processing group <Group surf_ts_plots_no_graupel (id=16, status=done)>
+2016-09-07 15:46:08,378:omni        :INFO    :     Processing node <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:46:08,380:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:46:08,381:omni        :DEBUG   : loading <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:46:08,501:omni        :DEBUG   : running <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:46:08,673:omni        :DEBUG   : saving <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:46:08,814:omni        :DEBUG   : finished <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:46:08,817:omni        :INFO    :     Processed <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:46:08,848:omni        :INFO    :   Processed group <Group surf_ts_plots_no_graupel (id=16, status=done)>
+2016-09-07 15:46:08,849:omni        :INFO    :   Processing group <Group surf_ts_plots_large_dom (id=20, status=done)>
+2016-09-07 15:46:08,851:omni        :INFO    :     Processing node <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:46:08,853:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:46:08,853:omni        :DEBUG   : loading <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:46:09,099:omni        :DEBUG   : running <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:46:09,263:omni        :DEBUG   : saving <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:46:09,407:omni        :DEBUG   : finished <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:46:09,410:omni        :INFO    :     Processed <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:46:09,438:omni        :INFO    :   Processed group <Group surf_ts_plots_large_dom (id=20, status=done)>
+2016-09-07 15:46:09,468:omni        :INFO    : Processed batch <Batch batch3 (id=4, status=done)>
+2016-09-07 15:46:43,306:omni        :DEBUG   : Created root logger: omni.log
+2016-09-07 15:46:43,306:omni        :DEBUG   : omni process -fb batch3
+2016-09-07 15:46:43,306:omni        :DEBUG   : checking config
+2016-09-07 15:46:43,307:omni        :DEBUG   : config OK
+2016-09-07 15:46:43,307:omni        :WARNING : Disabling Python warnings
+2016-09-07 15:46:43,307:omni        :DEBUG   : running cmd: <module 'omni_cmds.process' from '/home/markmuetz/opt/omnium/src/python/omnium/omni_cmds/process.pyc'>
+2016-09-07 15:46:43,307:omni        :DEBUG   : catching all exceptions
+2016-09-07 15:46:43,332:omni        :INFO    : Processing batch <Batch batch3 (id=4, status=done)>
+2016-09-07 15:46:43,334:omni        :INFO    :   Processing group <Group surf_ts_plots_15s (id=4, status=done)>
+2016-09-07 15:46:43,338:omni        :INFO    :     Processing node <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:46:43,340:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:46:43,340:omni        :DEBUG   : loading <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:46:43,434:omni        :DEBUG   : running <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:46:43,788:omni        :DEBUG   : saving <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:46:44,038:omni        :DEBUG   : finished <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:46:44,041:omni        :INFO    :     Processed <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:46:44,078:omni        :INFO    :   Processed group <Group surf_ts_plots_15s (id=4, status=done)>
+2016-09-07 15:46:44,080:omni        :INFO    :   Processing group <Group surf_ts_plots_30s (id=8, status=done)>
+2016-09-07 15:46:44,082:omni        :INFO    :     Processing node <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:46:44,085:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:46:44,085:omni        :DEBUG   : loading <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:46:44,215:omni        :DEBUG   : running <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:46:44,428:omni        :DEBUG   : saving <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:46:44,638:omni        :DEBUG   : finished <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:46:44,641:omni        :INFO    :     Processed <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:46:44,661:omni        :INFO    :   Processed group <Group surf_ts_plots_30s (id=8, status=done)>
+2016-09-07 15:46:44,662:omni        :INFO    :   Processing group <Group surf_ts_plots_60s (id=12, status=done)>
+2016-09-07 15:46:44,663:omni        :INFO    :     Processing node <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:46:44,665:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:46:44,665:omni        :DEBUG   : loading <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:46:44,777:omni        :DEBUG   : running <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:46:44,963:omni        :DEBUG   : saving <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:46:45,148:omni        :DEBUG   : finished <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:46:45,151:omni        :INFO    :     Processed <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:46:45,188:omni        :INFO    :   Processed group <Group surf_ts_plots_60s (id=12, status=done)>
+2016-09-07 15:46:45,189:omni        :INFO    :   Processing group <Group surf_ts_plots_no_graupel (id=16, status=done)>
+2016-09-07 15:46:45,191:omni        :INFO    :     Processing node <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:46:45,192:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:46:45,192:omni        :DEBUG   : loading <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:46:45,296:omni        :DEBUG   : running <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:46:45,492:omni        :DEBUG   : saving <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:46:45,684:omni        :DEBUG   : finished <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:46:45,686:omni        :INFO    :     Processed <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:46:45,705:omni        :INFO    :   Processed group <Group surf_ts_plots_no_graupel (id=16, status=done)>
+2016-09-07 15:46:45,706:omni        :INFO    :   Processing group <Group surf_ts_plots_large_dom (id=20, status=done)>
+2016-09-07 15:46:45,708:omni        :INFO    :     Processing node <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:46:45,709:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:46:45,709:omni        :DEBUG   : loading <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:46:45,969:omni        :DEBUG   : running <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:46:46,153:omni        :DEBUG   : saving <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:46:46,347:omni        :DEBUG   : finished <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:46:46,350:omni        :INFO    :     Processed <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:46:46,387:omni        :INFO    :   Processed group <Group surf_ts_plots_large_dom (id=20, status=done)>
+2016-09-07 15:46:46,408:omni        :INFO    : Processed batch <Batch batch3 (id=4, status=done)>
+2016-09-07 15:47:28,812:omni        :DEBUG   : Created root logger: omni.log
+2016-09-07 15:47:28,812:omni        :DEBUG   : omni process -fb batch3
+2016-09-07 15:47:28,812:omni        :DEBUG   : checking config
+2016-09-07 15:47:28,813:omni        :DEBUG   : config OK
+2016-09-07 15:47:28,813:omni        :WARNING : Disabling Python warnings
+2016-09-07 15:47:28,813:omni        :DEBUG   : running cmd: <module 'omni_cmds.process' from '/home/markmuetz/opt/omnium/src/python/omnium/omni_cmds/process.pyc'>
+2016-09-07 15:47:28,813:omni        :DEBUG   : catching all exceptions
+2016-09-07 15:47:28,839:omni        :INFO    : Processing batch <Batch batch3 (id=4, status=done)>
+2016-09-07 15:47:28,840:omni        :INFO    :   Processing group <Group surf_ts_plots_15s (id=4, status=done)>
+2016-09-07 15:47:28,842:omni        :INFO    :     Processing node <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:47:28,844:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:47:28,844:omni        :DEBUG   : loading <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:47:28,925:omni        :DEBUG   : running <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:47:29,202:omni        :DEBUG   : saving <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:47:29,476:omni        :DEBUG   : finished <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:47:29,479:omni        :INFO    :     Processed <Node surf_ts_plots_15s (id=5, status=done)>
+2016-09-07 15:47:29,515:omni        :INFO    :   Processed group <Group surf_ts_plots_15s (id=4, status=done)>
+2016-09-07 15:47:29,517:omni        :INFO    :   Processing group <Group surf_ts_plots_30s (id=8, status=done)>
+2016-09-07 15:47:29,519:omni        :INFO    :     Processing node <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:47:29,522:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:47:29,522:omni        :DEBUG   : loading <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:47:29,652:omni        :DEBUG   : running <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:47:29,821:omni        :DEBUG   : saving <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:47:30,032:omni        :DEBUG   : finished <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:47:30,034:omni        :INFO    :     Processed <Node surf_ts_plots_30s (id=10, status=done)>
+2016-09-07 15:47:30,057:omni        :INFO    :   Processed group <Group surf_ts_plots_30s (id=8, status=done)>
+2016-09-07 15:47:30,057:omni        :INFO    :   Processing group <Group surf_ts_plots_60s (id=12, status=done)>
+2016-09-07 15:47:30,059:omni        :INFO    :     Processing node <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:47:30,062:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:47:30,062:omni        :DEBUG   : loading <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:47:30,170:omni        :DEBUG   : running <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:47:30,373:omni        :DEBUG   : saving <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:47:30,587:omni        :DEBUG   : finished <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:47:30,590:omni        :INFO    :     Processed <Node surf_ts_plots_60s (id=15, status=done)>
+2016-09-07 15:47:30,624:omni        :INFO    :   Processed group <Group surf_ts_plots_60s (id=12, status=done)>
+2016-09-07 15:47:30,625:omni        :INFO    :   Processing group <Group surf_ts_plots_no_graupel (id=16, status=done)>
+2016-09-07 15:47:30,626:omni        :INFO    :     Processing node <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:47:30,628:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:47:30,628:omni        :DEBUG   : loading <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:47:30,729:omni        :DEBUG   : running <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:47:30,897:omni        :DEBUG   : saving <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:47:31,108:omni        :DEBUG   : finished <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:47:31,110:omni        :INFO    :     Processed <Node surf_ts_plots_no_graupel (id=20, status=done)>
+2016-09-07 15:47:31,132:omni        :INFO    :   Processed group <Group surf_ts_plots_no_graupel (id=16, status=done)>
+2016-09-07 15:47:31,134:omni        :INFO    :   Processing group <Group surf_ts_plots_large_dom (id=20, status=done)>
+2016-09-07 15:47:31,136:omni        :INFO    :     Processing node <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:47:31,138:omni        :INFO    :       Using process plot_sensitivity_surf_timeseries
+2016-09-07 15:47:31,138:omni        :DEBUG   : loading <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:47:31,376:omni        :DEBUG   : running <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:47:31,543:omni        :DEBUG   : saving <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:47:31,764:omni        :DEBUG   : finished <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:47:31,766:omni        :INFO    :     Processed <Node surf_ts_plots_large_dom (id=25, status=done)>
+2016-09-07 15:47:31,802:omni        :INFO    :   Processed group <Group surf_ts_plots_large_dom (id=20, status=done)>
+2016-09-07 15:47:31,826:omni        :INFO    : Processed batch <Batch batch3 (id=4, status=done)>
