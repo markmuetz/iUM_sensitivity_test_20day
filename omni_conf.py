@@ -11,12 +11,12 @@ computers = {
         'remote_address': 'mmuetz@login.rdf.ac.uk',
         'remote_path': '/nerc/n02/n02/mmuetz/omnis/u-af095_64x64km2',
         'dirs': {
-            'output': '/home/markmuetz/omni_output/u-af095_64x64km2/output'
+            'output': '/home/markmuetz/omni_output/iUM_sensitivity_test_20day/output'
         }
     },
     'rdf-comp': {
         'dirs': {
-            'output': '/nerc/n02/n02/mmuetz/omni_output/u-af095_64x64km2/output',
+            'output': '/nerc/n02/n02/mmuetz/omni_output/iUM_sensitivity_test_20day/output',
         }
     }
 }
@@ -29,19 +29,19 @@ comp = computers['rdf-comp']
 for expt in expts:
     if expt in expts_64x64:
         comp['dirs']['work_' + expt] = '/nerc/n02/n02/mmuetz/um10.5_runs/20day/u-af095_64x64km2_1km_{}/work'.format(expt)
-        comp['dirs']['results_' + expt] = '/nerc/n02/n02/mmuetz/omni_output/u-af095_64x64km2/results_{}'.format(expt)
+        comp['dirs']['results_' + expt] = '/nerc/n02/n02/mmuetz/omni_output/iUM_sensitivity_test_20day/results_64x64_{}'.format(expt)
     elif expt in expts_256x256:
         comp['dirs']['work_' + expt] = '/nerc/n02/n02/mmuetz/um10.5_runs/20day/u-af095_256x256/work'.format(expt)
-        comp['dirs']['results_' + expt] = '/nerc/n02/n02/mmuetz/omni_output/u-af095_256x256/results_{}'.format(expt)
+        comp['dirs']['results_' + expt] = '/nerc/n02/n02/mmuetz/omni_output/iUM_sensitivity_test_20day/results_256x256_{}'.format(expt)
 
 comp = computers['zerogravitas']
 for expt in expts:
     if expt in expts_64x64:
-        comp['dirs']['work_' + expt] = '/home/markmuetz/omni_output/u-af095_64x64km2/work_{}'.format(expt)
-        comp['dirs']['results_' + expt] = '/home/markmuetz/omni_output/u-af095_64x64km2/results_{}'.format(expt)
+        comp['dirs']['work_' + expt] = '/home/markmuetz/omni_output/iUM_sensitivity_test_20day/work_64x64{}'.format(expt)
+        comp['dirs']['results_' + expt] = '/home/markmuetz/omni_output/iUM_sensitivity_test_20day/results_64x64{}'.format(expt)
     elif expt in expts_256x256:
-        comp['dirs']['work_' + expt] = '/home/markmuetz/omni_output/u-af095_256x256km2/work_{0}'.format(expt)
-        comp['dirs']['results_' + expt] = '/home/markmuetz/omni_output/u-af095_256x256/results_{}'.format(expt)
+        comp['dirs']['work_' + expt] = '/home/markmuetz/omni_output/iUM_sensitivity_test_20day/work_256x256_{0}'.format(expt)
+        comp['dirs']['results_' + expt] = '/home/markmuetz/omni_output/iUM_sensitivity_test_20day/results_256x256_{}'.format(expt)
 
 batches = odict(('batch{}'.format(i), {'index': i}) for i in range(4))
 groups = odict()
