@@ -4,9 +4,9 @@ import importlib
 from processes import PylabProcess
 from stash import stash
 
-OPTS = odict([('Precip. flux equiv.', {'ylim': (0, 1500), 'convolve': True, 'yaxis': True}),
-             ('LHF', {'ylim': (0, 1500)}),
-             ('SHF', {'ylim': (0, 1500)})])
+OPTS = odict([('PFE', {'ylim': (0, 1000), 'convolve': True, 'yaxis': True}),
+             ('LHF', {'ylim': (0, 1000)}),
+             ('SHF', {'ylim': (0, 1000)})])
 
 
 class PlotSensitivitySurfTimeseries(PylabProcess):
@@ -56,7 +56,10 @@ class PlotSensitivitySurfTimeseries(PylabProcess):
             else:
                 ax.yaxis.set_ticklabels([])
             ax.set_title(name)
-            ax.set_ylim(opt['ylim'])
+            if self.node.name == 'surf_ts_plots_2day_moist_profile_moist_cons':
+                ax.set_ylim((0, 300))
+            else:
+                ax.set_ylim(opt['ylim'])
         self.processed_data = fig
 
     def save(self):

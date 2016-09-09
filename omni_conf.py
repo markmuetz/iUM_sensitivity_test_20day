@@ -80,6 +80,13 @@ for expt in expts:
         'nodes': ['surf_ts_plots_' + expt],
     }
 
+    groups['surf_ts_means_' + expt] = {
+        'type': 'nodes_process',
+        'base_dir': 'output',
+        'batch': 'batch3',
+        'nodes': ['surf_ts_means_' + expt],
+    }
+
     for bn, bv in zip(base_nodes, base_vars):
 	nodes[bn + '_' + expt] = {
 	    'type': 'from_group',
@@ -98,6 +105,24 @@ for expt in expts:
         'from_nodes': ['precip_conv_ts_' + expt, 'shf_ts_' + expt, 'lhf_ts_' + expt],
         'process': 'plot_sensitivity_surf_timeseries',
     }
+    nodes['surf_ts_means_' + expt] = {
+        'type': 'from_nodes',
+        'from_nodes': ['precip_conv_ts_' + expt, 'shf_ts_' + expt, 'lhf_ts_' + expt],
+        'process': 'last_five_day_mean',
+    }
+
+groups['latex_table'] = {
+    'type': 'nodes_process',
+    'base_dir': 'output',
+    'batch': 'batch3',
+    'nodes': ['latex_table'],
+}
+
+nodes['latex_table'] = {
+    'type': 'from_nodes',
+    'from_nodes': ['surf_ts_means_' + expt for expt in expts],
+    'process': 'latex_flux_table',
+}
 
 variables = {
     'precip': {
