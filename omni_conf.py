@@ -21,7 +21,7 @@ computers = {
     }
 }
 
-expts_64x64 = ['15s', '30s', '60s', 'no_graupel']
+expts_64x64 = ['15s', '30s', '60s', 'no_graupel', '2day_moist_profile_moist_cons']
 expts_256x256 = ['large_dom']
 expts = expts_64x64 + expts_256x256
 
